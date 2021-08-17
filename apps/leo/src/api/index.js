@@ -1,19 +1,14 @@
 const express = require('express');
 
-const emojis = require('./emojis');
-const places = require('./places');
-const sentiments = require('./sentiments');
+const documents = require('./modules/documents');
+const places = require('./modules/places');
+const sentiments = require('./modules/sentiments');
+const prefix = '/api/v1';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.json({
-    message: 'API - 👋🌎🌍🌏'
-  });
-});
-
-router.use('/emojis', emojis);
-router.use('/places', places);
-router.use('/sentiments', sentiments);
+router.use('/', documents);
+router.use(`${prefix}/places`, places);
+router.use(`${prefix}/sentiments`, sentiments);
 
 module.exports = router;

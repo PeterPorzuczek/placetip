@@ -1,4 +1,4 @@
-# app 1
+# Proj
 
 Example endpoints:
 http://localhost:8080/api/v1/places/list/pkobp%20gdansk
