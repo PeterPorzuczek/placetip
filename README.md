@@ -4,4 +4,6 @@ App done for Hack4Lem hackhaton. The application analyzes google data regarding 
 
 ## Preview
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FrZ2a1hw3f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div>
+	<a href="https://www.youtube.com/watch?v=FrZ2a1hw3f0"><img src="[https://i.imgur.com/EHVc0nN.png](https://i.imgur.com/ZGnVciD.png)" alt="app-preview" width="70%"></a>
+</div>
