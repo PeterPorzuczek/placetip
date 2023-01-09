@@ -1,7 +1,7 @@
 const express = require('express');
 const cache = require('memory-cache');
 const language = require('@google-cloud/language');
-const { credentials } = require('./keys.js');
+const { credentials } = require('../keys.js');
 
 const client = new language.LanguageServiceClient({
   credentials: credentials

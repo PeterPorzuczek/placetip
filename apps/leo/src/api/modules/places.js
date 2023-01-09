@@ -1,7 +1,7 @@
 const express = require('express');
 const fetch = require('sync-fetch');
 const cache = require('memory-cache');
-const { credential } = require('./keys.js');
+const { credential } = require('../keys.js');
 
 const key = credential;
 const placesHost = 'https://maps.googleapis.com/';
